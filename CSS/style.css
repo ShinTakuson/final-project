@@ -1,0 +1,53 @@
+body {
+
+}
+nav { background-color: #961c00;
+    height: fit-content;
+    margin: 0px;}
+nav > ul{
+    margin: 0px;
+    padding: 10px 0px;
+    list-style: none;
+    text-align: center;
+    display: block;
+}
+li {display: inline;
+border: 2px solid gray;
+color: #66e62c;
+border-radius: 5px;
+padding: 2px;
+margin: 2px;
+}
+i{
+color: #66e62c;}
+
+
+.inline-div > :first-letter{color: red;
+}
+.inline-div {color: #6d2ce6;}
+
+.container {
+    font-weight: 900;
+    font-family: sans-serif;
+    padding: 20px;
+    text-align: center;
+    border: 1px solid red;
+    background-color: #c47451;
+    width: 700px;
+}
+.inline-div {
+    background-color: green;
+    display: inline;
+    font-size: 50px;
+    font-family: 'Great Vibes', cursive;
+}
+.box {
+    background-color: indigo;
+    width: 200px;
+    height: 200px;
+    padding: 20px;
+    margin: 0 auto;
+    color: orange;
+    font-size: 50px;
+    font-family: 'Cookie', cursive;
+}
