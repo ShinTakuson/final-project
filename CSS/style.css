@@ -1,31 +1,23 @@
-body {
 
-}
 nav { background-color: #961c00;
     height: fit-content;
-    margin: 0px;}
+    width: 100%;
+    display: inline-block;}
 nav > ul{
     margin: 0px;
     padding: 10px 0px;
     list-style: none;
     text-align: center;
-    display: block;
-}
+    display: block;}
 li {display: inline;
 border: 2px solid gray;
 color: #66e62c;
 border-radius: 5px;
 padding: 2px;
-margin: 2px;
-}
-i{
-color: #66e62c;}
-
-
-.inline-div > :first-letter{color: red;
-}
+margin: 2px;}
+i{color: #66e62c;}
+.inline-div > :first-letter{color: red;}
 .inline-div {color: #6d2ce6;}
-
 .container {
     font-weight: 900;
     font-family: sans-serif;
@@ -33,14 +25,12 @@ color: #66e62c;}
     text-align: center;
     border: 1px solid red;
     background-color: #c47451;
-    width: 700px;
-}
+    width: 700px;}
 .inline-div {
     background-color: green;
     display: inline;
     font-size: 50px;
-    font-family: 'Great Vibes', cursive;
-}
+    font-family: 'Great Vibes', cursive;}
 .box {
     background-color: indigo;
     width: 200px;
@@ -49,5 +39,99 @@ color: #66e62c;}
     margin: 0 auto;
     color: orange;
     font-size: 50px;
-    font-family: 'Cookie', cursive;
-}
+    font-family: 'Cookie', cursive;}
+.FormDiv{position: absolute;
+    width: 95%;
+    height: fit-content;
+    padding-bottom:25px;}
+.borderanimation{
+    animation-name: BAnima;
+    animation-duration: 6s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-timing-function: linear;
+    width: auto;
+    background-image: url(/IMG/pumpkin12px.png);
+    overflow: hidden; 
+    height: 20px; 
+    top: 0px;
+    right: 0px;
+    left: 0px;
+    background-repeat: repeat-x;  
+    position: relative;
+    z-index: -1;}
+@keyframes BAnima {
+    from {left: -5px;} 
+    to{ left: 5px;}}
+.borderanimationL{
+    animation-name: BAnimaL;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate-reverse;
+    animation-timing-function: linear;
+    width: 20px;
+    background-image: url(/IMG/pumpkin12px.png);
+    overflow: hidden; 
+    height: auto; 
+    width: 20px;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    background-repeat: repeat-y;  
+    position: absolute;
+    z-index: -1;}
+@keyframes BAnimaL {
+    from {top: 0px;} 
+    to{ top: 10px;}}
+.borderanimationR{
+    animation-name: BAnimaR;
+    animation-duration: 6s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-timing-function: linear;
+    background-image: url(/IMG/pumpkin12px.png); 
+    width: 20px;
+    right: 0px;
+    bottom: 0;
+    top: 0;
+    background-repeat: repeat-y;
+    float:right;
+    z-index: -1;
+    position: absolute;}
+@keyframes BAnimaR {
+    from {top: -5px;} 
+    to{ top: 5px;}}
+
+.borderanimationB{
+    animation-name: BAnimaB;
+    animation-duration: 6s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate-reverse;
+    animation-timing-function: linear;
+    background-image: url(/IMG/pumpkin12px.png);
+    overflow: hidden;
+    width: auto;
+    height: 20px;
+    bottom: 0; 
+    right: 0;
+    left: 0;
+    background-repeat: repeat-x;  
+    position: absolute;
+    z-index: -1;}
+@keyframes BAnimaB {
+    from {left: -5px;} 
+    to{ left: 5px;}}
+form{padding: 5px;
+    display: block;
+    margin: auto;
+    width: fit-content;
+    max-width: 80%;
+    height: fit-content;
+    max-height: 80%;
+    border: 12px groove grey;
+    position: relative;
+    font-size: 24px;}
+label {font-family: cookie;}
+
+
+
