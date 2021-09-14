@@ -131,7 +131,73 @@ form{padding: 5px;
     border: 12px groove grey;
     position: relative;
     font-size: 24px;}
+    .animC{
+        animation-name: BAnimaC;
+        animation-duration: 2s;
+        animation-iteration-count: infinite;
+        animation-direction: alternate-reverse;
+        animation-timing-function: linear;
+        overflow: hidden;
+        position: relative;}
+        
+    @keyframes BAnimaC {
+        from {    transform: rotate(-20deg);
+            -webkit-transform: rotate(-20deg);} 
+        to {    transform: rotate(20deg);
+        -webkit-transform: rotate(20deg);}}
+
+
 label {font-family: cookie;}
-
-
-
+span {font-weight: bold;}
+p >a {color: royalblue;}
+p {color: orange; font-size: 20px;}
+.Ghost01Anim{
+    animation-name: Ghost01A;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate-reverse;
+    animation-timing-function: linear;
+    position: fixed;
+    overflow: hidden;
+    left:0;
+    height: 200px;  
+    z-index: -3; 
+}
+@keyframes Ghost01A{
+    0% {top: 0%;}
+    10% {left: 10%;}
+    20% {left: 5%;}
+    30% {left: 10%;}
+    40% {left: 5%;}
+    50% {left: 10%;}
+    60% {left: 5%;}
+    70% {left: 10%;}
+    80% {left: 5%;}
+    90% {left: 10%;}
+    100% {top: 100%; left: 5%;}}
+.Ghost02Anim{
+    animation-name: Ghost02A;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    animation-direction: normal;
+    animation-timing-function: linear;
+    position: fixed;
+    overflow: hidden;
+    height: 200px;  
+    z-index: -3; 
+}
+@keyframes Ghost02A{
+    0% {top: -20%; right: 10%;}
+    10% {right: 15%;}
+    20% {right: 10%; }
+    30% {right: 15%;}
+    40% {right: 10%;-webkit-transform: scaleX(-1);
+        transform: scaleX(-1);}
+    50% {right: 15%;}
+    60% {right: 10%;}
+    70% {right: 15%;-webkit-transform: scaleX(-1);
+        transform: scaleX(-1);}
+    80% {right: 10%;}
+    90% {right: 15%;}
+    100% {top: 100%; right: 10%;}
+}
