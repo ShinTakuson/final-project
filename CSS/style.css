@@ -1,4 +1,6 @@
-body{background-color: #e2e62c;}
+body {
+  background-color: #e2e62c;
+}
 nav {
   background-color: #961c00;
   height: fit-content;
@@ -73,7 +75,6 @@ header h1 {
   animation-direction: alternate;
   animation-timing-function: linear;
   width: auto;
-  background-image: url("IMG/pumpkin12px.png");
   overflow: hidden;
   height: 20px;
   top: 0px;
@@ -98,7 +99,7 @@ header h1 {
   animation-direction: alternate-reverse;
   animation-timing-function: linear;
   width: 20px;
-  background-image: url("IMG/pumpkin12px.png");
+
   overflow: hidden;
   height: auto;
   width: 20px;
@@ -123,7 +124,6 @@ header h1 {
   animation-iteration-count: infinite;
   animation-direction: alternate;
   animation-timing-function: linear;
-  background-image: url("IMG/pumpkin12px.png");
   width: 20px;
   right: 0px;
   bottom: 0;
@@ -148,7 +148,6 @@ header h1 {
   animation-iteration-count: infinite;
   animation-direction: alternate-reverse;
   animation-timing-function: linear;
-  background-image: url("IMG/pumpkin12px.png");
   overflow: hidden;
   width: auto;
   height: 20px;
@@ -319,7 +318,7 @@ footer {
   padding: 5px 0 5px 0;
 }
 footer p {
-    font-family: cookie;
+  font-family: cookie;
   clear: both;
   float: right;
   margin: 0 5px;
@@ -343,7 +342,6 @@ audio {
 }
 
 .hero-image {
-  
   height: 60vh;
   background-position: center;
   background-repeat: no-repeat;
