@@ -1,203 +1,386 @@
-
-nav { background-color: #961c00;
-    height: fit-content;
-    width: 100%;
-    display: inline-block;}
-nav > ul{
-    margin: 0px;
-    padding: 10px 0px;
-    list-style: none;
-    text-align: center;
-    display: block;}
-li {display: inline;
-border: 2px solid gray;
-color: #66e62c;
-border-radius: 5px;
-padding: 2px;
-margin: 2px;}
-i{color: #66e62c;}
-.inline-div > :first-letter{color: red;}
-.inline-div {color: #6d2ce6;}
-.container {
-    font-weight: 900;
-    font-family: sans-serif;
-    padding: 20px;
-    text-align: center;
-    border: 1px solid red;
-    background-color: #c47451;
-    width: 700px;}
+body{background-color: #e2e62c;}
+nav {
+  background-color: #961c00;
+  height: fit-content;
+  width: 100%;
+  display: inline-block;
+}
+nav > ul {
+  margin: 0px;
+  padding: 10px 0px;
+  list-style: none;
+  text-align: center;
+  display: block;
+}
+li {
+  display: inline;
+  border: 2px solid gray;
+  color: #66e62c;
+  border-radius: 5px;
+  padding: 2px;
+  margin: 2px;
+}
+i {
+  color: #66e62c;
+}
+header h1 {
+  color: red;
+  margin: 0px;
+  text-align: center;
+  padding: 0px;
+}
+.inline-div > :first-letter {
+  color: red;
+}
 .inline-div {
-    background-color: green;
-    display: inline;
-    font-size: 50px;
-    font-family: 'Great Vibes', cursive;}
+  color: #6d2ce6;
+}
+.container {
+  font-weight: 900;
+  font-family: sans-serif;
+  padding: 20px;
+  text-align: center;
+  border: 1px solid red;
+  background-color: #c47451;
+  width: 700px;
+}
+.inline-div {
+  background-color: green;
+  display: inline;
+  font-size: 50px;
+  font-family: "Great Vibes", cursive;
+}
 .box {
-    background-color: indigo;
-    width: 200px;
-    height: 200px;
-    padding: 20px;
-    margin: 0 auto;
-    color: orange;
-    font-size: 50px;
-    font-family: 'Cookie', cursive;}
-.FormDiv{position: absolute;
-    width: 95%;
-    height: fit-content;
-    padding-bottom:25px;}
-.borderanimation{
-    animation-name: BAnima;
-    animation-duration: 6s;
-    animation-iteration-count: infinite;
-    animation-direction: alternate;
-    animation-timing-function: linear;
-    width: auto;
-    background-image: url(/IMG/pumpkin12px.png);
-    overflow: hidden; 
-    height: 20px; 
-    top: 0px;
-    right: 0px;
-    left: 0px;
-    background-repeat: repeat-x;  
-    position: relative;
-    z-index: -1;}
+  background-color: indigo;
+  width: 200px;
+  height: 200px;
+  padding: 20px;
+  margin: 0 auto;
+  color: orange;
+  font-size: 50px;
+  font-family: "Cookie", cursive;
+}
+.FormDiv {
+  position: relative;
+  width: 95%;
+  height: fit-content;
+  padding-bottom: 25px;
+}
+.borderanimation {
+  animation-name: BAnima;
+  animation-duration: 6s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  animation-timing-function: linear;
+  width: auto;
+  background-image: url(IMG/pumpkin12px.png);
+  overflow: hidden;
+  height: 20px;
+  top: 0px;
+  right: 0px;
+  left: 0px;
+  background-repeat: repeat-x;
+  position: relative;
+  z-index: -1;
+}
 @keyframes BAnima {
-    from {left: -5px;} 
-    to{ left: 5px;}}
-.borderanimationL{
-    animation-name: BAnimaL;
-    animation-duration: 5s;
-    animation-iteration-count: infinite;
-    animation-direction: alternate-reverse;
-    animation-timing-function: linear;
-    width: 20px;
-    background-image: url(/IMG/pumpkin12px.png);
-    overflow: hidden; 
-    height: auto; 
-    width: 20px;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    background-repeat: repeat-y;  
-    position: absolute;
-    z-index: -1;}
+  from {
+    left: -5px;
+  }
+  to {
+    left: 5px;
+  }
+}
+.borderanimationL {
+  animation-name: BAnimaL;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate-reverse;
+  animation-timing-function: linear;
+  width: 20px;
+  background-image: url(IMG/pumpkin12px.png);
+  overflow: hidden;
+  height: auto;
+  width: 20px;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  background-repeat: repeat-y;
+  position: absolute;
+  z-index: -1;
+}
 @keyframes BAnimaL {
-    from {top: 0px;} 
-    to{ top: 10px;}}
-.borderanimationR{
-    animation-name: BAnimaR;
-    animation-duration: 6s;
-    animation-iteration-count: infinite;
-    animation-direction: alternate;
-    animation-timing-function: linear;
-    background-image: url(/IMG/pumpkin12px.png); 
-    width: 20px;
-    right: 0px;
-    bottom: 0;
-    top: 0;
-    background-repeat: repeat-y;
-    float:right;
-    z-index: -1;
-    position: absolute;}
+  from {
+    top: 0px;
+  }
+  to {
+    top: 10px;
+  }
+}
+.borderanimationR {
+  animation-name: BAnimaR;
+  animation-duration: 6s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  animation-timing-function: linear;
+  background-image: urlIMG/pumpkin12px.png);
+  width: 20px;
+  right: 0px;
+  bottom: 0;
+  top: 0;
+  background-repeat: repeat-y;
+  float: right;
+  z-index: -1;
+  position: absolute;
+}
 @keyframes BAnimaR {
-    from {top: -5px;} 
-    to{ top: 5px;}}
+  from {
+    top: -5px;
+  }
+  to {
+    top: 5px;
+  }
+}
 
-.borderanimationB{
-    animation-name: BAnimaB;
-    animation-duration: 6s;
-    animation-iteration-count: infinite;
-    animation-direction: alternate-reverse;
-    animation-timing-function: linear;
-    background-image: url(/IMG/pumpkin12px.png);
-    overflow: hidden;
-    width: auto;
-    height: 20px;
-    bottom: 0; 
-    right: 0;
-    left: 0;
-    background-repeat: repeat-x;  
-    position: absolute;
-    z-index: -1;}
+.borderanimationB {
+  animation-name: BAnimaB;
+  animation-duration: 6s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate-reverse;
+  animation-timing-function: linear;
+  background-image: url(IMG/pumpkin12px.png);
+  overflow: hidden;
+  width: auto;
+  height: 20px;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  background-repeat: repeat-x;
+  position: absolute;
+  z-index: -1;
+}
 @keyframes BAnimaB {
-    from {left: -5px;} 
-    to{ left: 5px;}}
-form{padding: 5px;
-    display: block;
-    margin: auto;
-    width: fit-content;
-    max-width: 80%;
-    height: fit-content;
-    max-height: 80%;
-    border: 12px groove grey;
-    position: relative;
-    font-size: 24px;}
-    .animC{
-        animation-name: BAnimaC;
-        animation-duration: 2s;
-        animation-iteration-count: infinite;
-        animation-direction: alternate-reverse;
-        animation-timing-function: linear;
-        overflow: hidden;
-        position: relative;}
-        
-    @keyframes BAnimaC {
-        from {    transform: rotate(-20deg);
-            -webkit-transform: rotate(-20deg);} 
-        to {    transform: rotate(20deg);
-        -webkit-transform: rotate(20deg);}}
-
-
-label {font-family: cookie;}
-span {font-weight: bold;}
-p >a {color: royalblue;}
-p {color: orange; font-size: 20px;}
-.Ghost01Anim{
-    animation-name: Ghost01A;
-    animation-duration: 10s;
-    animation-iteration-count: infinite;
-    animation-direction: alternate-reverse;
-    animation-timing-function: linear;
-    position: fixed;
-    overflow: hidden;
-    left:0;
-    height: 200px;  
-    z-index: -3; 
+  from {
+    left: -5px;
+  }
+  to {
+    left: 5px;
+  }
 }
-@keyframes Ghost01A{
-    0% {top: 0%;}
-    10% {left: 10%;}
-    20% {left: 5%;}
-    30% {left: 10%;}
-    40% {left: 5%;}
-    50% {left: 10%;}
-    60% {left: 5%;}
-    70% {left: 10%;}
-    80% {left: 5%;}
-    90% {left: 10%;}
-    100% {top: 100%; left: 5%;}}
-.Ghost02Anim{
-    animation-name: Ghost02A;
-    animation-duration: 10s;
-    animation-iteration-count: infinite;
-    animation-direction: normal;
-    animation-timing-function: linear;
-    position: fixed;
-    overflow: hidden;
-    height: 200px;  
-    z-index: -3; 
+form {
+  padding: 5px;
+  display: block;
+  margin: auto;
+  width: fit-content;
+  max-width: 80%;
+  height: fit-content;
+  max-height: 80%;
+  border: 12px groove grey;
+  position: relative;
+  font-size: 24px;
 }
-@keyframes Ghost02A{
-    0% {top: -20%; right: 10%;}
-    10% {right: 15%;}
-    20% {right: 10%; }
-    30% {right: 15%;}
-    40% {right: 10%;-webkit-transform: scaleX(-1);
-        transform: scaleX(-1);}
-    50% {right: 15%;}
-    60% {right: 10%;}
-    70% {right: 15%;-webkit-transform: scaleX(-1);
-        transform: scaleX(-1);}
-    80% {right: 10%;}
-    90% {right: 15%;}
-    100% {top: 100%; right: 10%;}
+.animC {
+  animation-name: BAnimaC;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate-reverse;
+  animation-timing-function: linear;
+  overflow: hidden;
+  position: relative;
+}
+
+@keyframes BAnimaC {
+  from {
+    transform: rotate(-20deg);
+    -webkit-transform: rotate(-20deg);
+  }
+  to {
+    transform: rotate(20deg);
+    -webkit-transform: rotate(20deg);
+  }
+}
+
+label {
+  font-family: cookie;
+}
+span {
+  font-weight: bold;
+}
+p > a {
+  color: royalblue;
+}
+p {
+  color: orange;
+  font-size: 20px;
+}
+.Ghost01Anim {
+  animation-name: Ghost01A;
+  animation-duration: 10s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate-reverse;
+  animation-timing-function: linear;
+  position: fixed;
+  overflow: hidden;
+  left: 0;
+  height: 200px;
+  z-index: -3;
+}
+@keyframes Ghost01A {
+  0% {
+    top: 0%;
+  }
+  10% {
+    left: 10%;
+  }
+  20% {
+    left: 5%;
+  }
+  30% {
+    left: 10%;
+  }
+  40% {
+    left: 5%;
+  }
+  50% {
+    left: 10%;
+  }
+  60% {
+    left: 5%;
+  }
+  70% {
+    left: 10%;
+  }
+  80% {
+    left: 5%;
+  }
+  90% {
+    left: 10%;
+  }
+  100% {
+    top: 100%;
+    left: 5%;
+  }
+}
+.Ghost02Anim {
+  animation-name: Ghost02A;
+  animation-duration: 10s;
+  animation-iteration-count: infinite;
+  animation-direction: normal;
+  animation-timing-function: linear;
+  position: fixed;
+  overflow: hidden;
+  height: 200px;
+  z-index: -3;
+}
+@keyframes Ghost02A {
+  0% {
+    top: -20%;
+    right: 10%;
+  }
+  10% {
+    right: 15%;
+  }
+  20% {
+    right: 10%;
+  }
+  30% {
+    right: 15%;
+  }
+  40% {
+    right: 10%;
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
+  }
+  50% {
+    right: 15%;
+  }
+  60% {
+    right: 10%;
+  }
+  70% {
+    right: 15%;
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
+  }
+  80% {
+    right: 10%;
+  }
+  90% {
+    right: 15%;
+  }
+  100% {
+    top: 100%;
+    right: 10%;
+  }
+}
+footer {
+  position: relative;
+  clear: both;
+  padding: 5px 0 5px 0;
+}
+footer p {
+    font-family: cookie;
+  clear: both;
+  float: right;
+  margin: 0 5px;
+  color: black;
+}
+footer i {
+  font-size: 5vh;
+  margin: 5px;
+  color: royalblue;
+}
+footer button {
+  margin: 5px;
+}
+footer button:hover {
+  background-color: skyblue;
+}
+
+audio {
+  float: right;
+  margin-right: 5px;
+}
+
+.hero-image {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("IMG/LakePhoto.jpg");
+  height: 60vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.hero-text {
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+}
+
+.hero-text img {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 5px 25px;
+  text-align: center;
+  cursor: pointer;
+}
+
+.hero-text img:hover {
+  transform: rotate(180deg);
+  -webkit-transform: rotate(180deg);
+}
+body,
+html {
+  height: 100%;
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+br + i {
+  color: red;
+  font-size: 50px;
 }
