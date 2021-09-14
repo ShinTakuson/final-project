@@ -123,7 +123,7 @@ header h1 {
   animation-iteration-count: infinite;
   animation-direction: alternate;
   animation-timing-function: linear;
-  background-image: urlIMG/pumpkin12px.png);
+  background-image: url(IMG/pumpkin12px.png);
   width: 20px;
   right: 0px;
   bottom: 0;
