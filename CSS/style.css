@@ -68,6 +68,7 @@ header h1 {
   height: fit-content;
   padding-bottom: 25px;
 }
+/* Animation Section, First section controls settings, second settings (@keyframes) adjustes the animation. */
 .borderanimation {
   animation-name: BAnima;
   animation-duration: 6s;
@@ -166,6 +167,9 @@ header h1 {
     left: 5px;
   }
 }
+
+/* End of Contact page Animation section */
+/* Form section */
 form {
   padding: 5px;
   display: block;
@@ -178,27 +182,6 @@ form {
   position: relative;
   font-size: 24px;
 }
-.animC {
-  animation-name: BAnimaC;
-  animation-duration: 2s;
-  animation-iteration-count: infinite;
-  animation-direction: alternate-reverse;
-  animation-timing-function: linear;
-  overflow: hidden;
-  position: relative;
-}
-
-@keyframes BAnimaC {
-  from {
-    transform: rotate(-20deg);
-    -webkit-transform: rotate(-20deg);
-  }
-  to {
-    transform: rotate(20deg);
-    -webkit-transform: rotate(20deg);
-  }
-}
-
 label {
   font-family: cookie;
 }
@@ -212,6 +195,8 @@ p {
   color: orange;
   font-size: 20px;
 }
+/* End of form section */
+/* About us animation, Starting with Ghost then turkey */
 .Ghost01Anim {
   animation-name: Ghost01A;
   animation-duration: 10s;
@@ -312,6 +297,28 @@ p {
     right: 10%;
   }
 }
+/* Rotating Turkey Animation */
+.animC {
+  animation-name: BAnimaC;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate-reverse;
+  animation-timing-function: linear;
+  overflow: hidden;
+  position: relative;
+}
+@keyframes BAnimaC {
+  from {
+    transform: rotate(-20deg);
+    -webkit-transform: rotate(-20deg);
+  }
+  to {
+    transform: rotate(20deg);
+    -webkit-transform: rotate(20deg);
+  }
+}
+/* End of About us Animation */
+/* Footer Section */
 footer {
   position: relative;
   clear: both;
@@ -340,7 +347,8 @@ audio {
   float: right;
   margin-right: 5px;
 }
-
+/* End of footer section */
+/* Hero image on Index page */
 .hero-image {
   height: 60vh;
   background-position: center;
@@ -377,7 +385,64 @@ html {
   margin: 0;
   font-family: Arial, Helvetica, sans-serif;
 }
+/* Arrow pointing at Logo, linked to Contact us page */
 br + i {
   color: red;
   font-size: 50px;
+  overflow: hidden;
 }
+/* Arrow Animation jumping motion */
+.animD {
+  animation-name: BAnimaD;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  animation-timing-function: linear;
+  overflow: hidden;
+  position: relative;
+}
+@keyframes BAnimaD {
+  0% {
+    left: -50px;
+    top: -30px;
+    transform: rotate(-30deg);
+    -webkit-transform: rotate(-30deg);
+  }
+  20% {
+    left: -30px;
+    top: 30px;
+    transform: rotate(-30deg);
+    -webkit-transform: rotate(-30deg);
+  }
+  40% {
+    left: 0px;
+    top: -30px;
+    transform: rotate(0deg);
+    -webkit-transform: rotate(0deg);
+  }
+  50% {
+    left: 0px;
+    top: 30px;
+    transform: rotate(0deg);
+    -webkit-transform: rotate(0deg);
+  }
+  60% {
+    left: 0px;
+    top: -30px;
+    transform: rotate(0deg);
+    -webkit-transform: rotate(0deg);
+  }
+  80% {
+    left: 30px;
+    top: 30px;
+    transform: rotate(30deg);
+    -webkit-transform: rotate(30deg);
+  }
+  100% {
+    left: 50px;
+    top: -30px;
+    transform: rotate(30deg);
+    -webkit-transform: rotate(30deg);
+  }
+}
+/* End of hero image section */

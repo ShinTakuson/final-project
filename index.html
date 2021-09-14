@@ -22,7 +22,11 @@
   <body>
     <header><h1>Welcome!</h1></header>
     <nav>
-      <img src="IMG/Logo_Small.png" alt="Logo image" style="height: 50%" />
+      <img
+        src="IMG/Logo_Small.png"
+        alt="Logo image"
+        style="position: static; float: left; height: 30px;"
+      />
       <ul>
         <li class="YouAreHere"><i class="fas fa-campground"> Home</i></li>
         <li>
@@ -48,10 +52,12 @@
         <h1 style="font-size: 6vh; margin: 5px">Final Project</h1>
         <p style="color: red; margin: 5px">Angel Ramirez</p>
         <p>Contact Me here</p>
-        <br /><i class="fa fa-arrow-down"></i>
+        <br /><i class="fa fa-arrow-down animD"></i>
         <br />
 
-        <a href="contact.html"><img src="IMG/Logo_Small.png" /></a>
+        <a href="contact.html"
+          ><img src="IMG/Logo_Small.png" alt="Contact Page"
+        /></a>
       </div>
     </div>
     <div style="text-align: center">
@@ -64,8 +70,9 @@
         >
       </p>
       <iframe
+        style="max-width: 80%"
         src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3253.246046655952!2d-119.02338138527124!3d35.37435305434924!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80ea69ead44608e1%3A0xd6057dcae28040ca!2sBitWise%20Bakersfield!5e0!3m2!1sen!2sus!4v1631587966873!5m2!1sen!2sus"
-        width="600"
+        width="600px"
         height="450"
         style="border: 0"
         allowfullscreen=""
@@ -83,17 +90,18 @@
 
     <footer>
       <hr />
-
-      <button style="font-size: 24px">
+      <button style="font-size: 24px" aria-label="Facebook Link">
         <i class="fab fa-facebook-square"></i>
       </button>
-      <button style="font-size: 24px"><i class="fab fa-twitter"></i></button>
-      <button style="font-size: 24px">
+      <button style="font-size: 24px" aria-label="Twitter Link">
+        <i class="fab fa-twitter"></i>
+      </button>
+      <button style="font-size: 24px" aria-label="Google Plus Link">
         <i class="fab fa-google-plus-g"></i>
       </button>
       <p>
         Final Project From Bitwise <br />
-        Created by Angel Ramriez
+        Created by Angel Ramirez
       </p>
     </footer>
   </body>
