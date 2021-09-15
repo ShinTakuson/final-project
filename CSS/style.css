@@ -354,6 +354,8 @@ footer {
   position: relative;
   clear: both;
   padding: 5px 0 5px 0;
+  bottom: 0;
+  height: fit-content;
 }
 footer p {
   font-family: cookie;
