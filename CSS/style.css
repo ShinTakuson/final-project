@@ -446,3 +446,26 @@ br + i {
   }
 }
 /* End of hero image section */
+/* AboutUs Divs */
+.aboutUsDiv {
+  border: 5px solid black;
+  max-width: 90%;
+  min-width: fit-content;
+  max-height: max-content;
+  display: inline-block;
+  margin: 20px auto;
+  background-image: linear-gradient(red, black);
+}
+aboutUsDiv::after {
+  clear: both;
+}
+.aboutUsDiv h2 {
+  font-family: Great Vibes;
+  margin: 10px;
+}
+
+.aboutUsDiv p {
+  margin: 10px;
+  overflow: hidden;
+  float: left;
+}
