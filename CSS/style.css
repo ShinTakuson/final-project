@@ -170,7 +170,7 @@ header h1 {
 .jasonMask {
   animation-name: animationJasonMask;
   animation-duration: 5s;
-  animation-iteration-count: 10;
+  animation-iteration-count: 1;
   animation-direction: reverse;
   animation-timing-function: linear;
   overflow: hidden;
