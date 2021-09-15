@@ -167,10 +167,10 @@ header h1 {
     left: 5px;
   }
 }
-.jasonMask{
+.jasonMask {
   animation-name: animationJasonMask;
   animation-duration: 5s;
-  animation-iteration-count: 1;
+  animation-iteration-count: 10;
   animation-direction: reverse;
   animation-timing-function: linear;
   overflow: hidden;
@@ -180,21 +180,25 @@ header h1 {
   z-index: 2;
   background-color: black;
   border: 5px solid green;
-  position: absolute;}
+  position: absolute;
+}
 @keyframes animationJasonMask {
-  0%{
-  opacity: .1;}  
-  100%{
-  opacity: 1;
-visibility: visible;}
-  
+  0% {
+    opacity: 0.1;
+  }
+  100% {
+    opacity: 1;
+    visibility: visible;
+  }
 }
 
-.jasonMaskAnimation{
+.jasonMaskAnimation {
   height: 100%;
-    display: block;
+  width: 100%;
+  display: block;
   margin-left: auto;
-  margin-right: auto;}
+  margin-right: auto;
+}
 /* End of Contact page Animation section */
 /* Form section */
 form {
